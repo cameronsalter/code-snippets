@@ -1,7 +1,10 @@
 ---
-title: "code-snippets-website"
+title: "Code snippets"
 ---
 
+Reference code snippets built up while learning R. Might also add some Python in future.
+
+----
 This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
