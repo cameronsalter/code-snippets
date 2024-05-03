@@ -4,13 +4,20 @@
     "href": "index.html",
     "title": "Code snippets",
     "section": "",
-    "text": "Reference code snippets built up while learning R. Might also add some Python in future.\n\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Reference code snippets built up while learning R. Might also add some Python in future.\n\n\nBasics\n\n\n\nDirectory navigation\nLoading packages\nif statements\n\n\nfor loops\nFunctions\nRegEx\n\n\nPrinting strings\n\n\n\n\n\n\n\nData structures\n\n\n\nVectors\nLists\n\n\n\n\n\n\nTidyverse\n\n\n\nData manipulation with dplyr\n\n\n\n\n\n\n\nVisualistion\n\n\n\nggplot2\n\n\n\n\n\n\n\nNew section\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "About this site\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "basics/dir_navigation.html",
+    "href": "basics/dir_navigation.html",
+    "title": "Directory navigation",
+    "section": "",
+    "text": "getwd()\n\n[1] \"D:/MY FILES/Projects/Public/code-snippets/basics\"\n\ndir() # List contents\n\n[1] \"dir_navigation.qmd\"       \"dir_navigation.rmarkdown\"\n\n\nSetting the working directory\n\nsetwd(\"..\") # Move up dir tree\n#setwd(\"code-snippets\") # Set folder in tree\n\n\n\n\n Back to top"
   }
 ]
