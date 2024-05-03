@@ -3,11 +3,13 @@ project:
 
 website:
   title: "code-snippets"
+  back-to-top-navigation: true
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+  page-footer: "This is a [Quarto website](https://quarto.org/docs/websites) published on GitHub Pages."
 
 format:
   html:

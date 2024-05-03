@@ -14,3 +14,5 @@ quarto publish gh-pages
 
 The website is published on GitHub Pages and is built on the gh-pages branch. All development is (currently) on main.
 
+## Using Quarto
+Use a Quarto document (.qmd) for each webpage.

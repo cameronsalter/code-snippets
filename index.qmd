@@ -5,6 +5,30 @@ title: "Code snippets"
 Reference code snippets built up while learning R. Might also add some Python in future.
 
 ----
-This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+# Basics
+| | | |
+|---|---|---|
+| [Directory navigation](basics/dir_navigation.qmd) | Loading packages | if statements |
+| for loops | Functions | RegEx |
+| Printing strings | | |
+
+# Data structures
+| | | |
+|---|---|---|
+| Vectors | Lists | |
+
+# Tidyverse
+| | | |
+|---|---|---|
+| Data manipulation with dplyr | | |
+
+# Visualistion
+| | | |
+|---|---|---|
+| ggplot2 | | |
+
+# New section
+| | | |
+|---|---|---|
+| | | |
