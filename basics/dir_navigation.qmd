@@ -4,11 +4,15 @@ title: "Directory navigation"
 
 ```{r}
 getwd()
-dir() # List contents
 ```
 
 Setting the working directory
 ```{r}
 setwd("..") # Move up dir tree
-#setwd("code-snippets") # Set folder in tree
+setwd("basics") # Set WD in tree
+getwd()
+```
+
+```{r}
+dir() # List contents
 ```

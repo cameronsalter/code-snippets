@@ -11,12 +11,10 @@ Reference code snippets built up while learning R. Might also add some Python in
 |---|---|---|
 | [Directory navigation](basics/dir_navigation.qmd) | Loading packages | if statements |
 | for loops | Functions | RegEx |
-| Printing strings | | |
+| Printing strings | [Data structures](basics/data_structures.qmd) | |
 
 # Data structures
-| | | |
-|---|---|---|
-| Vectors | Lists | |
+(Data structures in more depth?)
 
 # Tidyverse
 | | | |
