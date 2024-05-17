@@ -4,7 +4,28 @@
     "href": "index.html",
     "title": "Code snippets",
     "section": "",
-    "text": "Reference code snippets built up while learning R. Might also add some Python in future.\n\n\nBasics\n\n\n\nDirectory navigation\nLoading packages\nif statements\n\n\nfor loops\nFunctions\nRegEx\n\n\nPrinting strings\n\n\n\n\n\n\n\nData structures\n\n\n\nVectors\nLists\n\n\n\n\n\n\nTidyverse\n\n\n\nData manipulation with dplyr\n\n\n\n\n\n\n\nVisualistion\n\n\n\nggplot2\n\n\n\n\n\n\n\nNew section\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
+    "text": "Reference code snippets built up while learning R. Might also add some Python in future.\n\n\nBasics\n\n\n\nDirectory navigation\nLoading packages\nif statements\n\n\nfor loops\nFunctions\nRegEx\n\n\nPrinting strings\nData structures\n\n\n\n\n\n\nData structures\n(Data structures in more depth?)\n\n\nTidyverse\n\n\n\nData manipulation with dplyr\n\n\n\n\n\n\n\nVisualistion\n\n\n\nggplot2\n\n\n\n\n\n\n\nNew section\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "basics/data_structures.html",
+    "href": "basics/data_structures.html",
+    "title": "Data structures",
+    "section": "",
+    "text": "An overview of R data structures."
+  },
+  {
+    "objectID": "basics/data_structures.html#indexing",
+    "href": "basics/data_structures.html#indexing",
+    "title": "Data structures",
+    "section": "Indexing",
+    "text": "Indexing\n\nmy_vec[1]\n\n[1] 1\n\nmy_vec[1:3]\n\n[1] 1 2 3\n\nmy_vec[1:length(my_vec)]\n\n[1] 1 2 3 4\n\nmy_vec[c(1,3,4)] # Select specific indicies\n\n[1] 1 3 4"
+  },
+  {
+    "objectID": "basics/data_structures.html#assigning-names",
+    "href": "basics/data_structures.html#assigning-names",
+    "title": "Data structures",
+    "section": "Assigning names",
+    "text": "Assigning names\n\nnames(my_vec) &lt;- c('head_1', 'head_2', 'head_3', 'head_4')\nmy_vec\n\nhead_1 head_2 head_3 head_4 \n     1      2      3      4 \n\nmy_vec['head_1']\n\nhead_1 \n     1"
   },
   {
     "objectID": "about.html",
@@ -18,6 +39,6 @@
     "href": "basics/dir_navigation.html",
     "title": "Directory navigation",
     "section": "",
-    "text": "getwd()\n\n[1] \"D:/MY FILES/Projects/Public/code-snippets/basics\"\n\ndir() # List contents\n\n[1] \"dir_navigation.qmd\"       \"dir_navigation.rmarkdown\"\n\n\nSetting the working directory\n\nsetwd(\"..\") # Move up dir tree\n#setwd(\"code-snippets\") # Set folder in tree\n\n\n\n\n Back to top"
+    "text": "getwd()\n\n[1] \"D:/MY FILES/Projects/Public/code-snippets/basics\"\n\n\nSetting the working directory\n\nsetwd(\"..\") # Move up dir tree\nsetwd(\"basics\") # Set WD in tree\ngetwd()\n\n[1] \"D:/MY FILES/Projects/Public/code-snippets/basics\"\n\n\n\ndir() # List contents\n\n[1] \"data_structures.html\"     \"data_structures.qmd\"     \n[3] \"dir_navigation.qmd\"       \"dir_navigation.rmarkdown\"\n\n\n\n\n\n Back to top"
   }
 ]
