@@ -25,16 +25,47 @@ my_vec['head_1']
 ```
 
 # Data frames
+```{r}
+my_df <- data.frame(col1=c(1,2,2), col2=c(3,4,4), col3=c(5,6,6)) # df columns created from vectors
+my_df
+```
+
+## Indexing
+```{r}
+my_df$col1
+my_df[1:2, 'col1']
+my_df[1:nrow(my_df), c('col1','col3')]
+
+subset(my_df, col2>3) # Select rows based on condition
+```
 
 # Lists
+List items can have different data types, shapes and lengths.
+```{r}
+my_list <- list(item1=my_vec, item2=my_df)
+my_list
+```
+
+## Indexing
+Various ways to select all elements in first item of the list:
+```{r}
+my_list[[1]] # Or my_list[['item1']], or my_list$item1
+```
+Select elements within list items:
+```{r}
+my_list[[2]][1]
+my_list[[2]]$col1
+my_list[[2]][1:2, 'col1'] # etc
+```
 
 # Factors
 
 # Determing data type
 Various functions to determine the type of a varaible or an object.
-
-To include: class(), typeof(), str()...
 ```{r}
-#my_vec <- c(1,2,3)
-#my_list <- 
+class(my_vec) # Data type of data within object
+str(my_vec)
+typeof(my_vec)
+is.vector(my_vec)
+
 ```
