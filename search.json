@@ -28,6 +28,20 @@
     "text": "Assigning names\n\nnames(my_vec) &lt;- c('head_1', 'head_2', 'head_3', 'head_4')\nmy_vec\n\nhead_1 head_2 head_3 head_4 \n     1      2      3      4 \n\nmy_vec['head_1']\n\nhead_1 \n     1"
   },
   {
+    "objectID": "basics/data_structures.html#indexing-1",
+    "href": "basics/data_structures.html#indexing-1",
+    "title": "Data structures",
+    "section": "Indexing",
+    "text": "Indexing\n\nmy_df$col1\n\n[1] 1 2 2\n\nmy_df[1:2, 'col1']\n\n[1] 1 2\n\nmy_df[1:nrow(my_df), c('col1','col3')]\n\n  col1 col3\n1    1    5\n2    2    6\n3    2    6\n\nsubset(my_df, col2&gt;3) # Select rows based on condition\n\n  col1 col2 col3\n2    2    4    6\n3    2    4    6"
+  },
+  {
+    "objectID": "basics/data_structures.html#indexing-2",
+    "href": "basics/data_structures.html#indexing-2",
+    "title": "Data structures",
+    "section": "Indexing",
+    "text": "Indexing\nVarious ways to select all elements in first item of the list:\n\nmy_list[[1]] # Or my_list[['item1']], or my_list$item1\n\nhead_1 head_2 head_3 head_4 \n     1      2      3      4 \n\n\nSelect elements within list items:\n\nmy_list[[2]][1]\n\n  col1\n1    1\n2    2\n3    2\n\nmy_list[[2]]$col1\n\n[1] 1 2 2\n\nmy_list[[2]][1:2, 'col1'] # etc\n\n[1] 1 2"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
