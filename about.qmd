@@ -2,4 +2,5 @@
 title: "About"
 ---
 
-About this site
+Reference R code snippets built up while learning R. Might also add some Python in future.
+

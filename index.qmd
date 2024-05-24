@@ -2,14 +2,14 @@
 title: "Code snippets"
 ---
 
-Reference code snippets built up while learning R. Might also add some Python in future.
+Basic R code snippets for reference.
 
 ----
 
 # Basics
 | | | |
 |---|---|---|
-| [Directory navigation](basics/dir_navigation.qmd) | Loading packages | if statements |
+| [Directory navigation](basics/dir_navigation.qmd) | Loading packages | [if statements](basics/if_statements.qmd) |
 | for loops | Functions | RegEx |
 | Printing strings | [Data structures](basics/data_structures.qmd) | |
 
