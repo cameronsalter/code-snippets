@@ -2,18 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://cameronsalter.github.io/code-snippets/index.html</loc>
-    <lastmod>2024-05-17T08:32:36.597Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cameronsalter.github.io/code-snippets/basics/data_structures.html</loc>
-    <lastmod>2024-05-21T07:47:32.039Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cameronsalter.github.io/code-snippets/about.html</loc>
-    <lastmod>2024-04-19T10:54:11.244Z</lastmod>
+    <lastmod>2024-05-24T07:54:33.987Z</lastmod>
   </url>
   <url>
     <loc>https://cameronsalter.github.io/code-snippets/basics/dir_navigation.html</loc>
     <lastmod>2024-05-17T08:01:37.897Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cameronsalter.github.io/code-snippets/about.html</loc>
+    <lastmod>2024-05-24T07:53:10.853Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cameronsalter.github.io/code-snippets/basics/data_structures.html</loc>
+    <lastmod>2024-05-24T07:34:43.512Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cameronsalter.github.io/code-snippets/basics/if_statements.html</loc>
+    <lastmod>2024-05-24T07:50:40.954Z</lastmod>
   </url>
 </urlset>
