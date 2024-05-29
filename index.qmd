@@ -10,7 +10,7 @@ Basic R code snippets for reference.
 | | | |
 |---|---|---|
 | [Directory navigation](basics/dir_navigation.qmd) | Loading packages | [if statements](basics/if_statements.qmd) |
-| for loops | Functions | RegEx |
+| [Loops](basics/loops.qmd) | Functions | RegEx |
 | Printing strings | [Data structures](basics/data_structures.qmd) | |
 
 # Data structures

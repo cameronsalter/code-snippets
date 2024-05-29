@@ -35,6 +35,7 @@ my_df
 my_df$col1
 my_df[1:2, 'col1']
 my_df[1:nrow(my_df), c('col1','col3')]
+my_df[1:2, ] # All columns
 
 subset(my_df, col2>3) # Select rows based on condition
 ```

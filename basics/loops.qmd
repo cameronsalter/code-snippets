@@ -1,0 +1,61 @@
+---
+title: "Loops"
+---
+# For loops
+next - move onto next iteration
+break - exit from loop
+Ctrl + C - abort execution
+
+If you don't need an iterative counter, this is the simplest for loop contruction:
+```{r}
+cities <- c("NY", "London", "Cape Town", "Beijing", "Sydney", "Rio de Janeiro" )
+my_cities <- c()
+
+for (city in cities) {
+    my_cities[i] <- city
+}
+```
+If you need an iterative counter:
+```{r}
+my_cities <- c()
+
+for (i in seq_along(cities)) { 
+    city <- cities[i]
+
+    if (nchar(city) == 6) {
+        next # Skip the loop iterations for London and Sydney
+    }
+    print(paste0("Iteration ", i, ": ", city))
+    my_cities[i] <- city
+}
+```
+
+## Building dataframes and tibbles in a for loop
+Build a dataframe in a for loop:
+```{r}
+# Define an empty df
+df <- data.frame(col1 = numeric(), col2 = character(), stringsAsFactors=FALSE)
+
+for(i in seq_along(cities)) {
+    df[i, ] <- c(i, cities[i])
+}
+
+df
+```
+
+Build a tibble in a for loop:
+```{r}
+#library(tidyverse)
+# Define an empty tibble
+tib <- tibble(col1 = numeric(), col2 = character())
+
+for(i in seq_along(cities)) {
+    new_row <- tibble(col1 <- i, col2 <- cities[i])
+    tib <- rbind(tib, new_row)
+}
+tib
+```
+# While loops
+```{r}
+
+```
